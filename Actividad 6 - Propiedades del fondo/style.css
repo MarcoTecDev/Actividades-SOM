@@ -1,0 +1,82 @@
+/* Esta parte del CSS es para la plantilla. */
+#autor {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(55, 143, 194);
+  outline: auto;
+  outline-color: black;
+}
+
+.ejercicios {
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* EJERCICIO 1 */
+.celeste {
+  background-color: lightblue;
+}
+
+/* EJERCICIO 2 */
+header {
+  background-image: url('https://images-porsche.imgix.net/-/media/0B3F90A75B0141FF8BED694C3C1A323B_7C02423B08CB49C8801E208B2D16A51E_CZ25W18OX0004-911-gt3-white-side?w=2560&h=1440&q=45&crop=faces%2Centropy%2Cedges&auto=format');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 500px;
+}
+
+/* EJERCICIO 3 */
+section {
+  background-image: url('https://www.motortrend.com/uploads/2023/11/2024-Mercedes-AMG-GT-coupe-GT2-race-car-17.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 700px;
+  color: white;
+}
+
+/* EJERCICIO 4 */
+.cover {
+  background-image: url('https://mclaren.scene7.com/is/image/mclaren/720S-Coupe_hero:crop-16x9?wid=1920&hei=1080');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 500px;
+  color: white;
+}
+
+/* EJERCICIO 5 */
+footer {
+  background-image: url('https://soymotor.com/sites/default/files/usuarios/redaccion/portal/framos/atra3_0.jpg');
+  background-repeat: repeat-x;
+  height: 100px;
+}
+
+/* EJERCICIO 6 */
+article {
+  background-image: url('https://i.ytimg.com/vi/vbRqe6E_YJ8/maxresdefault.jpg');
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  height: 200px;
+  padding: 20px;
+  color: white;
+}
+
+/* EJERCICIO 7 */
+.fixed-background {
+  background: url('https://hips.hearstapps.com/es.h-cdn.co/cades/contenidos/10517/honda-nsx-2017-europa.jpg?crop=0.888888888888889xw:1xh;center,top&resize=1200:*') no-repeat fixed;
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
+
+/* EJERCICIO 8 */
+.dual-background {
+  background: 
+      url('https://www.autonocion.com/wp-content/uploads/2018/01/Mercedes-Benz-Clase-G-Paquete-Night-1.jpg') top left no-repeat,
+      url('https://67cdn.co.uk/137/3/318852/169582798765144813a5cfd_img-81031-large.jpg?width=480') bottom right no-repeat;   
+      background-size: 50% 50%;
+  height: 500px;
+}

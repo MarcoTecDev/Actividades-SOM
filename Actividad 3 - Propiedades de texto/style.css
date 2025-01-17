@@ -1,0 +1,74 @@
+/* Esta parte del CSS es para la plantilla. */
+#autor {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(55, 143, 194);
+  outline: auto;
+  outline-color: black;
+}
+
+.ejercicios {
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* EJERCICIO 1 */
+h2 {
+  text-align: center;
+}
+
+/* EJERCICIO 2 */
+p {
+  text-align: justify;
+  text-align-last: right;
+}
+
+/* EJERCICIO 3 */
+h1 {
+  letter-spacing: 2px;
+}
+
+/* EJERCICIO 4 */
+blockquote {
+  word-spacing: 4px;
+}
+
+/* EJERCICIO 5 */
+li {
+  line-height: 1.5;
+}
+
+/* EJERCICIO 6 */
+p img {
+  vertical-align: middle;
+  width: 50px;
+}
+
+/* EJERCICIO 7 */
+td {
+  text-align: center;
+  vertical-align: top;
+}
+
+/* EJERCICIO 8 */
+.intro p {
+  text-indent: 30px;
+}
+
+/* EJERCICIO 9 */
+.elegante {
+  text-align: justify;
+  text-align-last: left;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 2;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+
+/* EJERCICIO 10 */
+.indice:not([disabled]) {
+  text-decoration: dashed;
+  color: green;
+}

@@ -1,0 +1,71 @@
+/* Esta parte del CSS es para la plantilla. */
+#autor {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(55, 143, 194);
+  outline: auto;
+  outline-color: black;
+}
+
+.ejercicios {
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* EJERCICIO 1 */
+ul li:nth-child(3) {
+  color: red;
+}
+
+/* EJERCICIO 2 */
+section p:first-of-type {
+  font-size: 1.5em;
+}
+
+/* EJERCICIO 3 */
+div div:last-of-type {
+  border: 2px solid blue;
+}
+
+/* EJERCICIO 4 */
+div > img:only-child {
+  border: 2px solid red;
+}
+
+/* EJERCICIO 5 */
+article h2:first-of-type {
+  color: green;
+}
+
+/* EJERCICIO 6 */
+div p:not(:first-of-type) {
+  background-color: grey;
+}
+
+/* EJERCICIO 7 */
+ul li:nth-child(even):not(:nth-child(4)) {
+  background-color: yellow;
+}
+
+/* EJERCICIO 8 */
+form button:last-of-type:not([type="submit"]) {
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+
+}
+
+form button:last-of-type:not([type="submit"]):hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+
+/* EJERCICIO 9 */
+p > a:only-child:not(.externo) {
+  text-decoration: underline;
+}
+
+/* EJERCICIO 10 */
+form input[type="text"]:first-of-type:not(.búsqueda) {
+  border: 2px solid red;
+}}

@@ -1,0 +1,52 @@
+/* Esta parte del CSS es para la plantilla. */
+#autor {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(55, 143, 194);
+  outline: auto;
+  outline-color: black;
+}
+
+.ejercicios {
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  font-style: italic;
+  background: url('fondo.jpg');
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.caja {
+  width: 60%;
+  max-width: 800px;
+  min-width: 300px;
+  padding: 20px;
+  background-color: #ffffff; 
+  border: 20px solid transparent;
+  border-image: url('marco.png') 30 stretch;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.caja p {
+  margin: 0;
+  line-height: 1.6;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.caja span {
+  display: block;
+  margin-top: 20px;
+  font-style: italic;
+  color: #555;
+}

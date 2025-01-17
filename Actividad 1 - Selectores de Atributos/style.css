@@ -1,0 +1,64 @@
+/* Esta parte del CSS es para la plantilla. */
+#autor {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(55, 143, 194) ;
+    outline: auto;
+    outline-color: black;
+}
+
+.ejercicios {
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* EJERCICIO 1 */
+a[href^="https"] {
+    color: rgb(57, 172, 57);
+}
+
+/* EJERCICIO 2 */
+img[src$=".jpg"] {
+    border: solid red;
+}
+
+/* EJERCICIO 3 */
+[id="especial"] {
+    background-color: yellow;
+}
+
+/* EJERCICIO 4 */
+p[class*="importante"] {
+  font-weight: bold;
+}
+
+/* EJERCICIO 5 */
+a[href^="http"][href$=".org"] {
+  text-decoration: underline;
+}
+
+/* EJERCICIO 6 */
+div[class*="contenedor"][id*="principal"] {
+  border: 2px solid blue;
+}
+
+/* EJERCICIO 7 */
+button[name^="submit"] {
+  background-color: green;
+}
+
+/* EJERCICIO 8 */
+span[class$="cursiva"] {
+  font-style: italic;
+}
+
+/* EJERCICIO 9 */
+input[type*="text"] {
+  color: blue;
+}
+
+/* EJERCICIO 10 */
+ul[class*="navegacion"] {
+  list-style: none;
+}

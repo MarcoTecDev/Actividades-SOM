@@ -1,0 +1,46 @@
+/* Esta parte del CSS es para la plantilla. */
+#autor {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(55, 143, 194);
+  outline: auto;
+  outline-color: black;
+}
+
+.ejercicios {
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body {
+  background-image: url('fondo.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.jazz-header {
+  background: transparent;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.jazz-header h1 {
+  font-size: 56px;
+  font-family: Audiowide;
+  color: #ff66cc;
+  text-shadow: 0 0 1px #ff66cc, 0 0 1px #ff66cc, 0 0 1px #ff33cc, 0 0 20px #ff33cc, 0 0 40px #ff33cc;
+}
+
+.ejercicios h2 {
+  color: white;
+}

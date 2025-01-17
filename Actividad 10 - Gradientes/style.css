@@ -1,0 +1,25 @@
+/* Esta parte del CSS es para la plantilla. */
+#autor {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(55, 143, 194) ;
+    outline: auto;
+    outline-color: black;
+}
+
+.ejercicios {
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.circulo {
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    background: radial-gradient(at 40% 40%, white 0,9%, red 40%, hsl(0, 93%, 12%));
+    position: relative;
+    border-radius: 50%;
+}

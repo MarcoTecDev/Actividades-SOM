@@ -1,0 +1,122 @@
+/* Esta parte del CSS es para la plantilla. */
+#autor {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(55, 143, 194);
+  outline: auto;
+  outline-color: black;
+}
+
+.ejercicios {
+  text-align: left;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* EJERCICIO 1 */
+.different-border-widths {
+  border-width: 1px 2px 3px 4px; /* Arriba, derecha, abajo, izquierda */
+  border-style: solid;
+  border-color: black;
+}
+
+/* EJERCICIO 2 */
+.different-border-styles {
+  border-style: solid dotted dashed double; /* Arriba, derecha, abajo, izquierda */
+  border-width: 2px;
+  border-color: black;
+}
+
+/* EJERCICIO 3 */
+.different-border-colors {
+  border: 2px solid;
+  border-color: red green blue yellow; /* Arriba, derecha, abajo, izquierda */
+}
+
+/* EJERCICIO 4 */
+.combined-borders {
+  border-top: 3px solid red;
+  border-right: 3px dashed green;
+  border-bottom: 3px dotted blue;
+}
+
+/* EJERCICIO 5 */
+.thick-border-scroll {
+  border: 10px solid black;
+  overflow: scroll;
+  height: 100px;
+  background-color: lightgray;
+}
+
+/* EJERCICIO 6 */
+.rounded-different-borders {
+  border-top: 5px solid red;
+  border-right: 5px dashed blue;
+  border-bottom: 5px dotted green;
+  border-left: 5px double orange;
+  border-radius: 15px;
+}
+
+/* EJERCICIO 7 */
+.thick-border-fixed-bg {
+  border: 5px solid black;
+  background: url('https://porschepictures.flowcenter.de/pmdb/thumbnail.cgi?id=298793&w=1035&h=582&crop=1&public=1&cs=4638a85269c77584') no-repeat fixed;
+  background-size: cover;
+}
+
+/* EJERCICIO 8 */
+input[type="text"] {
+  border: 2px solid red;
+  color: blue;
+}
+
+/* EJERCICIO 9 */
+a[href^="https"]:hover {
+  color: green;
+  border-bottom: 1px dotted green;
+}
+
+/* EJERCICIO 10 */
+button.primary {
+  border: 2px solid blue;
+  letter-spacing: 1px;
+}
+
+/* EJERCICIO 11 */
+li[data-type="special"] {
+  font-style: italic;
+  color: purple;
+  border-left: 2px solid purple;
+}
+
+/* EJERCICIO 12 */
+.background-rounded {
+  border: 2px solid black;
+  border-radius: 10px 10px 0 0;
+  background: url('https://67cdn.co.uk/137/3/318852/169582798765144813a5cfd_img-81031-large.jpg?width=480') no-repeat center;
+  background-size: cover;
+  height: 150px;
+  color: white;
+}
+
+/* EJERCICIO 13 */
+input[type="password"] {
+  border: 2px dashed black;
+  border-radius: 5px;
+  color: red;
+}
+
+/* EJERCICIO 14 */
+a[href*="external"] {
+  background-color: yellow;
+  border-radius: 0 0 10px 10px;
+}
+
+/* EJERCICIO 15 */
+h2.special {
+  border-right: 2px solid blue;
+  border-radius: 0 10px 10px 0;
+  background-color: blue;
+  color: white;
+  letter-spacing: 1px;
+}
