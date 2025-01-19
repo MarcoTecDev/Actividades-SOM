@@ -1,4 +1,4 @@
-/* Esta parte del CSS es para la plantilla. */
+/* Estilos generales */
 #autor {
   color: rgb(255, 255, 255);
   text-align: center;
@@ -12,7 +12,6 @@
   text-align: left;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 
 body {
   background-image: url('fondo.png');
@@ -52,21 +51,22 @@ body {
   justify-content: center;
   text-align: center;
   margin: 50px auto;
-  width: 80%;
+  width: 60%;
+  padding: 20px;
   transform: rotate(-10deg);
-  font-family: 'Arial', sans-serif;
+  font-family: 'Audiowide', sans-serif;
+  color: #82e6ff;
 }
 
 .evento p {
-  color: #00eeff;
-  font-size: 23px;
-  text-shadow: 0 0 1px #070004, 0 0 1px #000000, 0 0 1px #000000, 0 0 20px #000000, 0 0 40px #000000;
+  margin: 10px 0;
+  font-size: 20px;
 }
 
 .evento img {
-  width: 500px;
+  width: 80%;
   height: auto;
   filter: grayscale(100%);
-  margin-top: 20px;
   border-radius: 10px;
+  margin-top: 10px;
 }
