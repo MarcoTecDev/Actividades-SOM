@@ -13,7 +13,6 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
 body {
   background-image: url('fondo.png');
   background-size: cover;
@@ -61,6 +60,7 @@ body {
   font-family: 'Audiowide', sans-serif;
   color: #82e6ff; 
   backdrop-filter: blur(10px);
+  transition: transform 1s ease-in-out;
 }
 
 .evento p {
@@ -79,7 +79,6 @@ body {
 
 .evento:hover {
   transform: rotate(0deg);
-  transition: transform 1s ease-in-out;
 }
 
 .evento:hover img {
